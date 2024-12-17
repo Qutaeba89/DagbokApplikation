@@ -18,8 +18,8 @@ sql password:REDACTED_DB_PASSWORD<br>
     a. create html to check if it everything works fine [X]<br>
   c. create get new dag book and post save it in database [X]<br>
     a.create html to check if it everything works fine [X]<br>
-  d.create get edit and post update it in database [ ]<br>
-    a.create html to check if it everything works fine [ ]<br>
+  d.create get edit and post update it in database [X]<br>
+    a.create html to check if it everything works fine [X]<br>
   e. ceate get delete and make it soft delete dagbok [ ]<br>
     a.create html to check if it everything works fine [ ]<br>
 6- edit get show all by adding findNotDeleted to show dagbok which is not deleted [ ]<br>
