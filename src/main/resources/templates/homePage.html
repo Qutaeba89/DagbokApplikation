@@ -9,10 +9,13 @@
     <h1>Dagboksinlägg</h1>
     <ul>
         <li th:each="dagBok : ${dagBoks}">
-            <p th:text="${dagBok.rubrik}">Rubrik</p>
+            <h3 th:text="${dagBok.rubrik}">Rubrik</h3>
             <p th:text="${dagBok.text}">Text</p>
-            <p th:text="${dagBok.datum}">Datum</p>
+            <span th:text="${dagBok.datum}">Datum</span><br>
+            <a th:href="@{'/edit/' + ${dagBok.id}}">Ändra</a>
+
         </li>
+        
     </ul>
     <a href="/new-dagbok">Gå till Nytt inlägg</a>
 </body>
