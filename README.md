@@ -12,8 +12,8 @@ sql password:REDACTED_DB_PASSWORD<br>
   e. create html to check if it everything works fine [X]<br>
 4-creat Dagbokrepositry to tell the program to use CrudeRepositry  [X]<br>
   a. added query to make soft delete dagbok [ ]<br>
-5-create dagbokcontroller [ ]<br>
-  a.connect it to repositry [ ]<br>
+5-create dagbokcontroller [X]<br>
+  a.connect it to repositry [X]<br>
   b.start with show all dagbok which is inside the database [ ]<br>
     a. create html to check if it everything works fine [ ]<br>
   c. create get new dag book and post save it in database [ ]<br>
