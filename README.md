@@ -2,24 +2,24 @@ DagBokApplikation
 Sql usename:dagbok_db
 sql password:REDACTED_DB_PASSWORD
 
-1- my plan for master key in application is Id for every dagbok user created.
-2- create database in sql
-3- start with creat dagbok class with 
-  a. object id, rubrik, text, datum and deleted.
-  b. add getter and sitter for them.
-  c. connect it to sql by adding @Entity
-  d. connect id to generate auto number
-  e. create html to check if it everything works fine
-4-creat Dagbokrepositry to tell the program to use CrudeRepositry 
-  a. added query to make soft delete dagbok
-5-create dagbokcontroller
-  a.connect it to repositry
-  b.start with show all dagbok which is inside the database
-    a. create html to check if it everything works fine
-  c. create get new dag book and post save it in database
-    a.create html to check if it everything works fine
-  d.create get edit and post update it in database
-    a.create html to check if it everything works fine
-  e. ceate get delete and make it soft delete dagbok
-    a.create html to check if it everything works fine
-6- edit get show all by adding findNotDeleted to show dagbok which is not deleted
+1- my plan for master key in application is Id for every dagbok user created. [ ]
+2- create database in sql [ ]
+3- start with creat dagbok class with [ ]
+  a. object id, rubrik, text, datum and deleted.[ ]
+  b. add getter and sitter for them.[ ]
+  c. connect it to sql by adding @Entity [ ]
+  d. connect id to generate auto number [ ]
+  e. create html to check if it everything works fine [ ]
+4-creat Dagbokrepositry to tell the program to use CrudeRepositry  [ ]
+  a. added query to make soft delete dagbok [ ]
+5-create dagbokcontroller [ ]
+  a.connect it to repositry [ ]
+  b.start with show all dagbok which is inside the database [ ]
+    a. create html to check if it everything works fine [ ]
+  c. create get new dag book and post save it in database [ ]
+    a.create html to check if it everything works fine [ ]
+  d.create get edit and post update it in database [ ]
+    a.create html to check if it everything works fine [ ]
+  e. ceate get delete and make it soft delete dagbok [ ]
+    a.create html to check if it everything works fine [ ]
+6- edit get show all by adding findNotDeleted to show dagbok which is not deleted [ ]
