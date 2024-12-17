@@ -1,6 +1,6 @@
-DagBokApplikation
-Sql usename:dagbok_db
-sql password:REDACTED_DB_PASSWORD
+DagBokApplikation<br>
+Sql usename:dagbok_db<br>
+sql password:REDACTED_DB_PASSWORD<br>
 
 1- my plan for master key in application is Id for every dagbok user created. [ ] <br>
 2- create database in sql [ ]<br>
