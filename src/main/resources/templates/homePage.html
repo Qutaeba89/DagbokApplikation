@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dagbok hemsida</title>
+</head>
+<body>
+    <h1>Dagboksinlägg</h1>
+    <ul>
+        <li th:each="dagBok : ${dagBoks}">
+            <p th:text="${dagBok.rubrik}">Rubrik</p>
+            <p th:text="${dagBok.text}">Text</p>
+            <p th:text="${dagBok.datum}">Datum</p>
+        </li>
+    </ul>
+    <a href="/new-dagbok">Gå till Nytt inlägg</a>
+</body>
+</html>

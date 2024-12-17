@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nytt Inlägg</title>
+</head>
+<body>
+    <h1>Nytt Dagboksinlägg</h1>
+    <form th:action="@{/save}" method="post" th:object="${dagBok}">
+        <label>Rubrik</label>
+        <input type="text" th:field="*{rubrik}" placeholder="Rubrik" required><br>
+        <label>Text</label>
+        <input type="text" th:field="*{text}" placeholder="Text" required><br>
+        <label>Datum</label>
+        <input type="date" th:field="*{datum}" placeholder="Datum"><br>
+        <button type="submit">Spara</button>
+    </form>
+</body>
+</html>
