@@ -2,7 +2,7 @@ DagBokApplikation
 Sql usename:dagbok_db
 sql password:REDACTED_DB_PASSWORD
 
-1- my plan for master key in application is Id for every dagbok user created. [ ]
+1- my plan for master key in application is Id for every dagbok user created. [ ] <br>
 2- create database in sql [ ]
 3- start with creat dagbok class with [ ]
   a. object id, rubrik, text, datum and deleted.[ ]
