@@ -15,18 +15,18 @@ body {
     border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 15px;
+    margin: 15px 0;
     text-align: center;
     width: 50%;
-    margin: 20px 0;
 }
 
 /* Center the list container */
 .huvud {
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none; 
     padding: 0;
-    width: 60%;           /* Center the list with a specific width */
-    margin: 0;
+    width: 60%; 
+    margin: 0 auto;
 }
 
 /* Center each dagBok item */
@@ -38,6 +38,7 @@ body {
     padding: 15px;
     margin-bottom: 20px;
     text-align: center; /* Center content inside each list item */
+    display: inline-block; /* to make it fit the own text for every task. */
 }
 
 /* Center and style the "Gå till Nytt inlägg" link */
