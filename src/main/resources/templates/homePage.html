@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dagbok hemsida</title>
+    <link rel="stylesheet" type="text/css" href="loginStyle.css">
 </head>
 <body>
-    <h1>Dagboksinlägg</h1>
-    <ul>
+    <h1 class="rubrik">Dagboksinlägg</h1>
+    <ul class="huvud">
         <li th:each="dagBok : ${dagBoks}">
             <h3 th:text="${dagBok.rubrik}">Rubrik</h3>
             <p th:text="${dagBok.text}">Text</p>
             <span th:text="${dagBok.datum}">Datum</span><br>
-            <a th:href="@{'/edit/' + ${dagBok.id}}">Ändra</a>
-
+            <a class="dagbok-button" th:href="@{'/edit/' + ${dagBok.id}}">Ändra</a>
+            <a class="dagbok-button" th:href="@{'/delete/' + ${dagBok.id}}">Radera</a>
         </li>
         
     </ul>
-    <a href="/new-dagbok">Gå till Nytt inlägg</a>
+    <a href="/new-dagbok" class="new-dagbok-link">Gå till Nytt inlägg</a>
 </body>
 </html>

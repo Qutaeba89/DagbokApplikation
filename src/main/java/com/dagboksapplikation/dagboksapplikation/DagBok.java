@@ -16,6 +16,7 @@ public class DagBok {
     private String rubrik;
     private String text;
     private LocalDate datum;
+    private int deleted;
     
     public int getId() {
         return id;
@@ -40,6 +41,12 @@ public class DagBok {
     }
     public void setDatum(LocalDate datum) {
         this.datum = datum;
+    }
+    public int getDeleted() {
+        return deleted;
+    }
+    public void setDeleted(int deleted) {
+        this.deleted = deleted;
     }
 
     

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ändra Inlägg</title>
+    <link rel="stylesheet" type="text/css" href="/editStyle.css">
 </head>
 <body>
-    <h1>Ändra Dagboksinlägg</h1>
-    <form th:action="@{/update}" method="post" th:object="${dagBok}">
+    <h1 class="rubrik">Ändra Dagboksinlägg</h1>
+    <form class="huvud" th:action="@{/update}" method="post" th:object="${dagBok}">
         <input type="hidden" th:field="*{id}">
         <label>Rubrik</label>
         <input type="text" th:field="*{rubrik}" placeholder="Rubrik" required><br>
@@ -17,7 +18,7 @@
         <input type="date" th:field="*{datum}" placeholder="Datum"><br>
         <button type="submit">Updatera</button>
     </form>
-    <a href="/">Tillbaka hemsida</a>
+    <a href="/">Tillbaka till hemsida</a>
 
 </body>
 </html>
