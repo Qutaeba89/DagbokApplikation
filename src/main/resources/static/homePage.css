@@ -11,8 +11,8 @@ body {
 
 /* Center the main heading */
 .rubrik {
-    background-color:rgb(161, 205, 50);
-    border: 2px solid #ccc;
+    background-color:rgb(153, 205, 50);
+    border: 2px solid rgb(255, 245, 47);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -31,8 +31,8 @@ body {
 
 /* Center each dagBok item */
 .huvud li {
-    background-color: white;
-    border: 2px solid #ccc;
+    background-color:rgb(214, 255, 127);
+    border: 2px solid rgb(255, 245, 47);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -62,11 +62,11 @@ body {
     display: inline-block; 
     margin-top: 20px;
     padding: 10px 15px;
-    background-color: #f8f8f8;
+    background-color: rgb(214, 255, 127);
     color: #333;
     text-decoration: none;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.152);
     border: 1px solid #ccc;
     font-size: 12px;
 }
