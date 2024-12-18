@@ -11,7 +11,7 @@ body {
 
 /* Center the main heading */
 .rubrik {
-    background-color:rgb(153, 205, 50);
+    background-color:rgba(153, 205, 50, 0.732);
     border: 2px solid rgb(255, 245, 47);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -31,7 +31,7 @@ body {
 
 /* Center each dagBok item */
 .huvud li {
-    background-color:rgb(214, 255, 127);
+    background-color:rgba(214, 255, 127, 0.951);
     border: 2px solid rgb(255, 245, 47);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,12 +45,12 @@ body {
 .new-dagbok-link {
     margin-top: 20px;
     padding: 10px 15px;
-    background-color: #f8f8f8;
+    background-color: #f8f8f873;
     color: #333;
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     font-size: 16px;
 }
 
