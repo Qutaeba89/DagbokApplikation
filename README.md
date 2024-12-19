@@ -11,7 +11,7 @@ sql password:REDACTED_DB_PASSWORD<br>
   d. connect id to generate auto number [X]<br>
   e. create html to check if it everything works fine [X]<br>
 4-creat Dagbokrepositry to tell the program to use CrudeRepositry  [X]<br>
-  a. added query to make soft delete dagbok [ ]<br>
+  a. added query to make soft delete dagbok [X]<br>
 5-create dagbokcontroller [X]<br>
   a.connect it to repositry [X]<br>
   b.start with show all dagbok which is inside the database [X]<br>
