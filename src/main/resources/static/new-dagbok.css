@@ -12,8 +12,8 @@ body {
 
 /* Center and style the heading */
 .rubrik {
-    background-color: rgba(153, 205, 50, 0.732);
-    border: 2px solid rgb(255, 245, 47);
+    background-color: rgba(255, 255, 255, 0.764);
+    border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -24,8 +24,8 @@ body {
 
 /* Center and style the form */
 .huvud {
-    background-color: rgba(214, 255, 127, 0.891);
-    border: 2px solid rgb(255, 245, 47);
+    background-color: rgba(255, 255, 255, 0.798);
+    border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -48,7 +48,7 @@ body {
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgb(161, 255, 127);
+    background-color: white;
 }
 
 .huvud button {

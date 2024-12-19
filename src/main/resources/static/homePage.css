@@ -11,8 +11,8 @@ body {
 
 /* Center the main heading */
 .rubrik {
-    background-color:rgba(153, 205, 50, 0.732);
-    border: 2px solid rgb(255, 245, 47);
+    background-color:rgba(255, 255, 255, 0.798);
+    border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -31,8 +31,8 @@ body {
 
 /* Center each dagBok item */
 .huvud li {
-    background-color:rgba(214, 255, 127, 0.951);
-    border: 2px solid rgb(255, 245, 47);
+    background-color:rgba(255, 255, 255, 0.798);
+    border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
