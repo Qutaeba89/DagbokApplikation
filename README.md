@@ -1,26 +1,38 @@
-DagBokApplikation<br>
-Sql usename:dagbok_db<br>
-sql password:REDACTED_DB_PASSWORD<br>
+# DagBok — Diary App
 
-1- my plan for master key in application is Id for every dagbok user created. [X] <br>
-2- create database in sql [X]<br>
-3- start with creat dagbok class [X]<br>
-  a. object id, rubrik, text, datum and deleted.[X]<br>
-  b. add getter and sitter for them.[X]<br>
-  c. connect it to sql by adding @Entity [X]<br>
-  d. connect id to generate auto number [X]<br>
-  e. create html to check if it everything works fine [X]<br>
-4-creat Dagbokrepositry to tell the program to use CrudeRepositry  [X]<br>
-  a. added query to make soft delete dagbok [X]<br>
-5-create dagbokcontroller [X]<br>
-  a.connect it to repositry [X]<br>
-  b.start with show all dagbok which is inside the database [X]<br>
-    a. create html to check if it everything works fine [X]<br>
-  c. create get new dag book and post save it in database [X]<br>
-    a.create html to check if it everything works fine [X]<br>
-  d.create get edit and post update it in database [X]<br>
-    a.create html to check if it everything works fine [X]<br>
-  e. ceate get delete and make it soft delete dagbok [X]<br>
-    a.create html to check if it everything works fine [X]<br>
-6- edit get show all by adding findNotDeleted to show dagbok which is not deleted [X]<br>
-7- testing the program [X]<br>
+A simple diary ("dagbok") web app — create, edit, and soft-delete diary entries. Built as a
+coursework project.
+
+## Features
+
+- Create, edit, and delete diary entries (soft delete — entries are flagged, not removed)
+- List view showing only non-deleted entries
+- Server-rendered HTML views (Thymeleaf)
+
+## Tech stack
+
+Java, Spring Boot, Spring Data JPA, MySQL, Thymeleaf.
+
+## Getting started
+
+**Prerequisites:** JDK 17+, MySQL running locally with a `dagbok_db` database.
+
+Set your DB credentials as environment variables — never hardcode them in `application.properties`:
+
+```bash
+export DB_USERNAME=dagbok_db
+export DB_PASSWORD=your_mysql_password
+```
+
+```bash
+./mvnw spring-boot:run
+```
+
+## Project structure
+
+```
+src/main/java/com/dagboksapplikation/dagboksapplikation/
+  DagBok.java              # entity — id, rubrik (title), text, datum (date), deleted flag
+  DagBokRepositry.java     # CRUD repository + soft-delete query
+  DagBokController.java    # views: list (non-deleted only), create, edit, soft-delete
+```
